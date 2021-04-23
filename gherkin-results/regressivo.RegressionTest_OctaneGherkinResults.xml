@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="teste 1" path="features\testeAPI.feature" started="1619095983150" tag=""><file><![CDATA[Feature: teste 1
+
+  Scenario: Teste de consulta GET
+    Given que seja acessado o endpoint "topicos"
+    Then for efetuado um get
+
+
+
+]]></file><scenarios><scenario name="Teste de consulta GET"><steps><step duration="2474580200" name="Given que seja acessado o endpoint &quot;topicos&quot;" status="passed"/><step duration="2862786100" name="Then for efetuado um get" status="passed"/></steps></scenario></scenarios></feature><feature name="teste 2" path="features\testeAPI2.feature" started="1619095988552" tag=""><file><![CDATA[Feature: teste 2
+
+  Scenario Outline: Teste de Submissao
+    Given que seja acessado o endpoint "topicos"
+    Then for efetuado um post com os valores "<titulo>" e "<mensagem>"
+
+    Examples: erros
+      | titulo         | mensagem          |
+      | Bug no Tablet  | erro no login     |
+
+
+
+
+
+
+
+
+
+
+]]></file><scenarios><scenario name="Teste de Submissao" outlineIndex="1"><steps><step duration="29908600" name="Given que seja acessado o endpoint &quot;topicos&quot;" status="passed"/><step duration="356072700" name="Then for efetuado um post com os valores &quot;Bug no Tablet&quot; e &quot;erro no login&quot;" status="passed"/></steps></scenario></scenarios></feature><feature name="teste 3" path="features\testeAPI3.feature" started="1619095988959" tag=""><file><![CDATA[Feature: teste 3
+
+  Scenario Outline: Teste de Atualizacao
+    Given que seja acessado o endpoint "topicos/3"
+    Then for efetuado uma atualizacao com os valores "<titulo>" e "<mensagem>"
+
+    Examples: erros
+      | titulo         | mensagem           |
+      | Bug na protese | erro na placa      |
+
+
+
+
+
+
+
+
+
+
+]]></file><scenarios><scenario name="Teste de Atualizacao" outlineIndex="1"><steps><step duration="26568700" name="Given que seja acessado o endpoint &quot;topicos/3&quot;" status="passed"/><step duration="210306600" name="Then for efetuado uma atualizacao com os valores &quot;Bug na protese&quot; e &quot;erro na placa&quot;" status="passed"/></steps></scenario></scenarios></feature><feature name="teste 4" path="features\testeAPI4.feature" started="1619095989223" tag=""><file><![CDATA[Feature: teste 4
+
+  Scenario:  Teste de remocao
+    Given que seja acessado o endpoint "topicos/1"
+    Then para remover o elemento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></file><scenarios><scenario name="Teste de remocao"><steps><step duration="13728600" name="Given que seja acessado o endpoint &quot;topicos/1&quot;" status="passed"/><step duration="240579300" name="Then para remover o elemento" status="passed"/></steps></scenario></scenarios></feature></features>

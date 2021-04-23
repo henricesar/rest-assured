@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="6.21453">
+    <testcase classname="teste 1" name="Teste de consulta GET" time="5.337366">
+        <system-out><![CDATA[Given que seja acessado o endpoint "topicos"................................passed
+Then for efetuado um get....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="teste 2" name="Teste de Submissao" time="0.385981">
+        <system-out><![CDATA[Given que seja acessado o endpoint "topicos"................................passed
+Then for efetuado um post com os valores "Bug no Tablet" e "erro no login"..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="teste 3" name="Teste de Atualizacao" time="0.236875">
+        <system-out><![CDATA[Given que seja acessado o endpoint "topicos/3"..............................passed
+Then for efetuado uma atualizacao com os valores "Bug na protese" e "erro na placa".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="teste 4" name="Teste de remocao" time="0.254308">
+        <system-out><![CDATA[Given que seja acessado o endpoint "topicos/1"..............................passed
+Then para remover o elemento................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
